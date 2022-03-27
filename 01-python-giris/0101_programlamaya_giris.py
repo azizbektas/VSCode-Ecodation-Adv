@@ -1,3 +1,4 @@
+# git hub deneme
 """
 Bilgisayarın Temel Çalışma Mantığı - Program - Yazılım Nedir?
 Bilgisayarda her eylem bir görevdir ve her görevi, sırayla olmak üzere 3 aşamada gerçekleştirir.
