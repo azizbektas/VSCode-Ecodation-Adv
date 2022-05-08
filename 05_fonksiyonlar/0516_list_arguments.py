@@ -7,6 +7,6 @@ Argüman olarak → list gönderebilir miyim? Cevabı, Evet
 
 # region ornek
 """
-
+ 
 """
 # endregion
