@@ -23,7 +23,7 @@ pDilleri(
 
 
 
-
+"""
 dilPython ={
     "programlamaDili" :"python",
     "seviye" : "yüksek",
@@ -49,4 +49,28 @@ def dilBilgisi(dil):
 print("Prg.Dili\tSeviye\t\tInterprt.\tVers.")
 print("------\t\t-------\t\t-------\t\t------")
 dilBilgisi(dilPython)
-dilBilgisi(dilCSharp)
+dilBilgisi(dilCSharp)"""
+
+
+
+
+
+araba = {
+    "marka":"toyota",
+    "motor":1.6,
+    "renk":"kırmızı",
+    "fiyat":1000
+}
+
+
+def satinAl(arg, musteri, butce, favListe):
+    print(f"{musteri} isimli müşteri {arg['marka']} marka araba satın almak istiyor")
+    if butce>= arg["fiyat"]:
+        print("bütçe yeterli tabiki de")
+    else:
+        print(f"bütçe yeterli değil, {arg['fiyat']-butce} TL eksik")
+
+
+satinAl(araba, "burak", 1500, ["gri", "beyaz", "siyah"])
+
+
