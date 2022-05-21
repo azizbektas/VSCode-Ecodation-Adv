@@ -10,6 +10,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """
    - Calisan class
        - ad,soyad,tc,maas
