@@ -69,18 +69,16 @@ def gAra(g):
         "uranüs",
         "neptün"
     ]
-    # if not isinstance(g, str):
+    if not isinstance(g, str):
+        raise TypeError("gezegen adı hata, str tipinde olmalı")
+    # if type(g) is not str:
     #     raise TypeError("gezegen adı hata, str tipinde olmalı")
-    """if type(g) is not str:
-        raise TypeError("gezegen adı hata, str tipinde olmalı")"""
     if g not in gezegenler:
         raise ValueError(f"gezegen adı hata, {g} gezegen ismi değildir")
+    print(f"girdiğiniz fav gezeneniniz {g}")
 
 
 try:
-    gezegen = input("lütfen fav. gezegeninizi giriniz: ")
-    gAra(gezegen)
+    gAra(3)
 except(TypeError, ValueError) as e:
     print(e)
-else:
-    print(f"girdiğiniz fav gezeneninizz {gezegen}")
