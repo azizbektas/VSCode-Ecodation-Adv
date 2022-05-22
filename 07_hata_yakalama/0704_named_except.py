@@ -13,6 +13,8 @@ mevsimler = [
 ]
 fav = int(input("Lütfen favori mevsimini giriniz:  [1 - 4] : "))
 print(mevsimler[fav])
+----
+from selenium import webdriver
 """
 # endregion
 

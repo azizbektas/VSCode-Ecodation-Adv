@@ -10,9 +10,9 @@ Exception Handling  →           try:
 """
 def mValid():
     try:
-        # from selenium import webdriver
-        import netmiko
-    except:
+        from selenium import webdriver
+        # import netmiko
+    except ModuleNotFoundError:
         return 0
     else:
         return 1
