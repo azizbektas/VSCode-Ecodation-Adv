@@ -1,0 +1,26 @@
+Sun Jan  2 20:47:22.569 UTC
+
+Interface                      IP-Address      Status          Protocol Vrf-Name
+BVI220                         unassigned      Shutdown        Down     default 
+BVI221                         unassigned      Shutdown        Down     default 
+BVI225                         unassigned      Shutdown        Down     default 
+Bundle-Ether165                unassigned      Shutdown        Down     default 
+Bundle-Ether167                unassigned      Shutdown        Down     default 
+Bundle-Ether175                unassigned      Shutdown        Down     default 
+Bundle-Ether177                unassigned      Shutdown        Down     default 
+Loopback20                     unassigned      Up              Up       default 
+Loopback100                    1.1.1.100       Up              Up       default 
+Loopback112                    unassigned      Up              Up       default 
+Loopback200                    1.1.1.200       Up              Up       default 
+Loopback555                    unassigned      Up              Up       default 
+Loopback1234                   unassigned      Up              Up       default 
+tunnel-ip12445                 10.220.45.41    Up              Up       default 
+MgmtEth0/RP0/CPU0/0            10.10.20.175    Up              Up       default 
+GigabitEthernet0/0/0/0         unassigned      Shutdown        Down     default 
+GigabitEthernet0/0/0/0.123     unassigned      Shutdown        Down     default 
+GigabitEthernet0/0/0/1         unassigned      Down            Down     default 
+GigabitEthernet0/0/0/2         192.168.0.1     Shutdown        Down     default 
+GigabitEthernet0/0/0/3         unassigned      Shutdown        Down     default 
+GigabitEthernet0/0/0/4         203.0.113.11    Shutdown        Down     default 
+GigabitEthernet0/0/0/5         unassigned      Down            Down     default 
+GigabitEthernet0/0/0/6         unassigned      Down            Down     default 
