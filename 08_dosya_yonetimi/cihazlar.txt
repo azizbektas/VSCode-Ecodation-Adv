@@ -1,0 +1,8 @@
+3→ access-point
+4→ router
+5→ wlc
+6→ dna
+7→ umbrella
+8→ nexus
+9→ switch
+10→ vmware esxi
