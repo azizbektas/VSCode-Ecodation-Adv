@@ -1,3 +1,4 @@
+# region with_nedir
 # f = open("cihazlar.txt", encoding="utf-8")
 # print(f.read())
 # f.close()
@@ -8,6 +9,7 @@
 # print(f.closed)
 # imdb_250.txt dosyasını nereden indirebilirim?
 # bit.ly/aziz-hoca-paylas
+# endregion
 
 
 # region for_ile_search
