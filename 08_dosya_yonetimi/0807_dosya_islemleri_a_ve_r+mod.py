@@ -1,8 +1,8 @@
 # region dosya_acma_modlari
 """
-Dosya Açma Modları	→  	[ r ] 	:   read-okuma 
+Dosya Açma Modları	→  	[ r ] 	:   read-okuma,
 					                dosya çağırılan dizinde değil ise hata verir
-                        [ x ] 	:   oluşturma 
+                        [ x ] 	:   oluşturma,
 					                oluşturulan dosya adı çağırılan dizinde mevcut ise hata verir
 				        [ w ] 	:   write-yazma,
                                     dosya çağırılan dizinde oluşturulur, 
