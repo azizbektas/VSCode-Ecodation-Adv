@@ -24,7 +24,8 @@ with open("yazarlar.txt", encoding="utf-8") as f:
     print(f.read(), end="")'''
 # endregion
 
-yazarlarListesi = []
+
+'''yazarlarListesi = []
 while True:
     y = input("lütfen yazar adı ekleyin, çıkmak için [ç] : ")
     if y.lower()=="ç":
@@ -36,4 +37,34 @@ with open("yazarlar.txt", "w", encoding="utf-8") as f:
         f.write(i+"\n")
 with open("yazarlar.txt", encoding="utf-8") as f:
     print(f.read(), end="")
+'''
+
+
 # ödev → DRY sizde: DONT REPEAT YOURSELF
+class FileOperation:
+    def __init__(self, file) -> None:
+        self.file = file
+
+    def fileWrite(self):
+        global yazarlarListesi
+        with open(self.file , "w", encoding="utf-8") as f:
+            for i in yazarlarListesi:
+                f.write(i+"\n")
+
+    def fileRead(self):
+        with open(self.file , encoding="utf-8") as f:
+            print(f.read(), end="")
+
+
+yazarlarListesi = []
+file = "yazarlar.txt"
+while True:
+    y = input("lütfen yazar adı ekleyin, çıkmak için [ç] : ")
+    if y.lower() == "ç":
+        break
+    yazarlarListesi.append(y)
+
+
+fObj = FileOperation(file)
+fObj.fileWrite()
+fObj.fileRead()
