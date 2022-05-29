@@ -18,3 +18,33 @@ Dosya Açma Modları	→  	[ r ] 	:   read-okuma,
                                     seek metodu ile birlikte kullanılabilir
 """
 # endregion
+
+
+
+# w modunun kötü tarafı aynı isimde var ise, önceki verileri siler 
+'''with open("cihazlar.txt", "w", encoding="utf-8") as f:
+    # print(f)
+    f.write("1→switch")'''
+
+
+
+
+
+
+
+
+'''with open("cihazlar.txt", "a", encoding="utf-8") as f:
+    f.write("7→umbrella\n")'''
+
+
+
+# append mod açında, üzgünüm seek metodu çalışmaz, cursor'u istediğin yere taşıyazmazsın
+'''with open("cihazlar.txt", "a", encoding="utf-8") as f:
+    f.seek(0)
+    f.write("1→nexus\n")'''
+
+
+
+with open("cihazlar.txt", "r+", encoding="utf-8") as f:
+    f.read()
+    f.write("9→switch\n")
