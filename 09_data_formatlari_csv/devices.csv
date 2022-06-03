@@ -1,6 +1,6 @@
-dName,dType,ipAdd,baseMac,location
-sw1,switch,112.20.10.10,a101.ff20.5650,istanbul
-apron-switch,access-point,110.22.10.12,a100.bb20.5651,istanbul
-kontuar-router,router,172.1.0.100,a010.bc50.5012,istanbul
-metu-wan,firewall,110.22.10.13,b55f.a108.aadd,ankara
-metu-kampus,router,192.168.10.101,b1aa.cc12.ff55,ankara
+dName:dType:ipAdd:baseMac:location
+sw1:switch:112.20.10.10:a101.ff20.5650:istanbul
+apron-switch:access-point:110.22.10.12:a100.bb20.5651:istanbul
+kontuar-router:router:172.1.0.100:a010.bc50.5012:istanbul
+metu-wan:firewall:110.22.10.13:b55f.a108.aadd:ankara
+metu-kampus:router:192.168.10.101:b1aa.cc12.ff55:ankara

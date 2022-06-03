@@ -23,3 +23,8 @@ with open("cihazlar.txt", "r+", encoding="utf-8") as f:
 #r+ mod ile açtım 2. bir with gerek yok
 # with open("cihazlar.txt", encoding="utf-8") as f:
 #     print(f.read())
+
+
+#plain-text
+#csv+json
+#database

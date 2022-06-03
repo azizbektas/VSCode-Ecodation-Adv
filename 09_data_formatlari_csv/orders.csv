@@ -1,5 +1,6 @@
-CustomerId,ShipCountry
-VINET,France-Fr
-HANAR,Brazil-Br
-ERNSH,Austria-Au
-BERGS,Sweden-Sw
+CustomerId,ShipCountry,IsShipped
+VINET,France-Fr,True
+HANAR,Brazil-Br,True
+ERNSH,Austria-Au,False
+BERGS,Sweden-Sw,True
+YSFEFE,Turkey-Tr,False
