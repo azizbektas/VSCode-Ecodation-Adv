@@ -108,10 +108,119 @@ INSERT INTO ogrenci(ogrNo, ad, soyad, tel, adres) VALUES ('5884316','Özerol','A
 """
 # endregion
 
+# region ogrenci_auto_increment
+"""
+INSERT INTO ogrenci (ad, soyad) VALUES ('Kureyş','Karabaş');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Çaka Bey','Akbörk');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Şenal','Odabaş');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Gülçağ','Özbilge');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Tufan','Kayabaş');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Enginalp','Kuloğlu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Şinasi','Aycan');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Aramdil','Geçgel');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Kabil','Çetin');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Necaettin','Arıca');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Baybora','Yuşan');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Yasir','Gerçekcioğlu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Süerdem','Gürer');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Ergenç','Koçhan');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Pesen','Üstünel');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Savgat','Nar');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Kalagay','Samsa');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Malum','Yağbasan');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Burgaç','Şenses');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Satuk','Toramanoğlu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Oktuna','Turgut');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Temirkut','Kayaş');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Erdal','İçel');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Talac','Kurtcu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Erginalp','Yüksel');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Efkar','Başoğlu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Giray','Hürrem');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Sebat','Güllüoğlu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Resai','Sert');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Hakkı','Deregözü');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Mahbub','Elma');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Batuğ','Tomo');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Yankı','Kınık');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Erenay','Yüce');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Sedef','Aysundu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Kerimhan','Keçeci');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Pekalp','Küllü');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Nüvid','Büyüktatar');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Ediz','Elgin');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Ceydahan','Çavuşoğlu');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Sermed','Kurtul');
+INSERT INTO ogrenci (ad, soyad) VALUES ('İlgi','Kula');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Sülünbike','Karaköylü');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Kadri','Uygan');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Balibey','Ağıroğlu bakır');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Harut','Büyüközer');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Nevsal','Erten');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Memnun','Burçak');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Tokuşhan','Uluçay');
+INSERT INTO ogrenci (ad, soyad) VALUES ('Seba','Odabaş');
+"""
+# endregion
+
+# region ders_auto_increment
+"""
+INSERT into ders(ders_ad,ders_kredi) values('Programlama', 4);
+INSERT into ders(ders_ad,ders_kredi) values('Matematik', 6);
+INSERT into ders(ders_ad,ders_kredi) values('Fizik', 3);
+INSERT into ders(ders_ad,ders_kredi) values('Bilişim Hukuku', 3);
+INSERT into ders(ders_ad,ders_kredi) values('Proje Yönetimi', 2);
+INSERT into ders(ders_ad,ders_kredi) values('İleri Programlama', 6);
+INSERT into ders(ders_ad,ders_kredi) values('Veri Tabanı Yönetimi', 4);
+INSERT into ders(ders_ad,ders_kredi) values('Ağ Sistemleri ve Anahtarlama', 8);
+INSERT into ders(ders_ad,ders_kredi) values('Ağ Sistemleri ve Yönlendirme', 10);
+"""
+# endregion        
+
+# region ogrenci_ders
+"""
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(100, 100, 90, 90);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(100, 101, 50, 40);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(100, 102, 90, 65);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(100, 103, 60, 45);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(100, 104, 55, 100);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(101, 100, 30, 90);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(101, 101, 50, 100);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(101, 102, 100, 90);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(101, 103, 85, 60);
+insert into ogrenci_ders(ogrenci_no,ders_kod,vize,final) values(101, 104, 60, 490);
+"""
+# endregion
+
+# region country
+"""
+INSERT INTO country(country_Id, name) values(100, "Türkiye");
+INSERT INTO country(country_Id, name) values(101, "Almanya");
+"""
+# endregion
+
+# region yonetici
+"""
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('101', 'Aşir Altunsuyu baltacı', '2000.05.26', 'Odtü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('102', 'Anıl Ece', '2001.05.20', 'Koü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('103', 'Hannan Alkış', '2000.10.11', 'İtü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('104', 'Erendiz Ürhan', '2008.12.12', 'Odtü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('105', 'Besim Taşdemir', '1997.07.18', 'Ankara');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('106', 'Sürre Deniz yılmaz', '2002.09.30', 'Odtü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('107', 'Yalaz Köprü', '2001.07.28', 'Odtü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('108', 'Amel Akbaba', '2020.03.26', 'Koü');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('109', 'Sidar Yeşilgil', '2021.02.27', 'Süleyman Demirel');
+insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values('110', 'Durusoy Gümüş', '2022.01.24', 'Okan');
+"""
+# endregion
 
 
-
-
-
+# region departman
+"""
+insert into departman() values(1001, 'IT', 15000.99, 'Tuzla');
+insert into departman() values(1002, 'IK', 4500.50, 'Maslak');
+insert into departman() values(1003, 'Muhasebe', 4500.50, 'Maslak');
+"""
+# endregion
 
 
