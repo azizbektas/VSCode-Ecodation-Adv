@@ -214,7 +214,6 @@ insert into yonetici(yonetici_id, ad_soyad, ise_giris_tarihi, mezuniyet) values(
 """
 # endregion
 
-
 # region departman
 """
 insert into departman() values(1001, 'IT', 15000.99, 'Tuzla');
@@ -223,4 +222,10 @@ insert into departman() values(1003, 'Muhasebe', 4500.50, 'Maslak');
 """
 # endregion
 
-
+# region stok
+"""
+insert into stok(sNo,stokAdi,adet,fiyat,sonKulTarihi) values(101,"kalem",100,11.50,"2024.02.09");
+insert into stok(sNo,stokAdi,adet,fiyat,sonKulTarihi) values(102,"defter",120,13.75,"2029.11.10");
+insert into stok(sNo,stokAdi,adet,fiyat,sonKulTarihi) values(103,"silgi",200,3.99,"2030.09.27");
+"""
+# endregion
