@@ -91,3 +91,13 @@ drop test_column;
 drop table urun;
 """
 # endregion
+
+
+
+"""
+create table ders(
+	dersNo int not null primary key auto_increment,
+    ders_ad char(50) not null,
+    ders_kredi int not null
+);
+"""
