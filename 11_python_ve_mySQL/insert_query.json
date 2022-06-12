@@ -1,0 +1,79 @@
+[
+	{
+		"id" : 1,
+		"product_name" : "çay",
+		"description" : "karadeniz yöresinden içecek",
+		"list_price" : 16.8800,
+		"category_id" : 1
+	},
+	{
+		"id" : 2,
+		"product_name" : "chai",
+		"description" : "karadeniz yöresinden içecek",
+		"list_price" : 16.8800,
+		"category_id" : 1
+	},
+	{
+		"id" : 3,
+		"product_name" : "iphone 112",
+		"description" : "64 GB",
+		"list_price" : 16000.9500,
+		"category_id" : 2
+	},
+	{
+		"id" : 4,
+		"product_name" : "çay",
+		"description" : "128 GB",
+		"list_price" : 21459.9600,
+		"category_id" : 2
+	},
+	{
+		"id" : 5,
+		"product_name" : "çay",
+		"description" : "No-Frost Buzdolabı",
+		"list_price" : 6998.0000,
+		"category_id" : 3
+	},
+	{
+		"id" : 6,
+		"product_name" : "çay",
+		"description" : "9 Kg 1000 Devir Çamaşır Makinesi",
+		"list_price" : 5999.0000,
+		"category_id" : 3
+	},
+	{
+		"id" : 7,
+		"product_name" : "çay",
+		"description" : "Mini Buzdolabı",
+		"list_price" : 3339.0000,
+		"category_id" : 3
+	},
+	{
+		"id" : 8,
+		"product_name" : "çay",
+		"description" : "No-Frost Buzdolabı",
+		"list_price" : 6998.0000,
+		"category_id" : 3
+	},
+	{
+		"id" : 9,
+		"product_name" : "çay",
+		"description" : "9 Kg 1000 Devir Çamaşır Makinesi",
+		"list_price" : 5999.0000,
+		"category_id" : 3
+	},
+	{
+		"id" : 10,
+		"product_name" : "çay",
+		"description" : "Mini Buzdolabı",
+		"list_price" : 3339.0000,
+		"category_id" : 3
+	},
+	{
+		"id" : 11,
+		"product_name" : "çay",
+		"description" : "şahin mi iphone mu karar ver",
+		"list_price" : 80000.5900,
+		"category_id" : 2
+	}
+]
